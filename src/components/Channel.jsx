@@ -12,18 +12,18 @@ const Channel = () => {
       <img src={Flogo} alt='francicaKmauthu logo' className='frankie-logo'/> 
       <div className='channel-side-container'>
         <h2>Frankie's channel</h2>
-        <p>  ✨ Here are her channels follow for more music !  ✨</p>
+        <p>  ✨ Here are her channels  click to follow for more music !  ✨</p>
 <div className="social-circle-links">
-      <a href="https://facebook.com/francisca" target="_blank" rel="noopener noreferrer" className="icon fb">
+      <a href="https://www.facebook.com/frankie.kingola" target="_blank" rel="noopener noreferrer" className="icon fb">
         <FaFacebookF />
       </a>
-      <a href="https://instagram.com/francisca" target="_blank" rel="noopener noreferrer" className="icon ig">
+      <a href="https://www.instagram.com/franciscakamuthu_/" target="_blank" rel="noopener noreferrer" className="icon ig">
         <FaInstagram />
       </a>
-      <a href="https://tiktok.com/@francisca" target="_blank" rel="noopener noreferrer" className="icon tk">
+      <a href="https://www.tiktok.com/@k.frankie81?lang=en" target="_blank" rel="noopener noreferrer" className="icon tk">
     <SiTiktok />
   </a>
-      <a href="https://youtube.com/francisca" target="_blank" rel="noopener noreferrer" className="icon yt">
+      <a href="https://www.youtube.com/@Franciscakamuthumusic" target="_blank" rel="noopener noreferrer" className="icon yt">
         <FaYoutube />
       </a>
     </div>

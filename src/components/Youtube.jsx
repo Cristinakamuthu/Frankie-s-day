@@ -31,11 +31,11 @@ const Youtube = () => {
     },
     {
       id: 6,
-      title: 'Ulinzi wa Mama Maria',
+      title: 'Wewe ni Mungu',
       youtubeId: 'OsHHPDC5fs4',
-      description: 'A powerful reflection on the protection of Mary.',
+      description: 'A thanksgiving to God',
       image: 'https://img.youtube.com/vi/OsHHPDC5fs4/0.jpg',
-      hook: '“Under her mantle, we fear no evil.” 🕊️',
+      hook: '“In God we trust” 🕊️',
     },
   ];
 
