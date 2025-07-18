@@ -147,6 +147,107 @@
     transform: translateX(0);
   }
 }
+.about-page {
+  background-color: azure;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+   /* position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%); */
+
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;      
+  object-fit: cover;       
+  border: 4px solid #FBFCF8; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) ; 
+}
+.repost-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
+.repost-image-container{
+ width: 100%;
+  height: 100%;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  display: block;
+}
+.centered-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FBFCF8; 
+  font-weight: 1000;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* for readability */
+  pointer-events: none; 
+  font-family: "PT Serif", serif;
+  /* font-weight: 400; */
+  font-style: normal;
+  font-size: 28px;
+  
+}
+.tmt-crew-thanks {
+  
+  max-width: 600px;
+  /* margin: 2rem auto; */
+  padding: 1.5rem;
+  /* background: linear-gradient(135deg, #f4f1ee, #e9e1d8); */
+  /* background-image: url('./assests/franciscateam.jpeg'); */
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  line-height: 2.0;
+  color: #333;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+.tmt-crew-thanks p {
+  margin: 0;
+   font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  /* text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700; */
+
+}
+
+
+
+@media (max-width: 768px) {
+  .tmt-crew-thanks {
+    padding: 1.2rem;
+    font-size: 0.95rem;
+  }
+}
+
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
 
   
   
