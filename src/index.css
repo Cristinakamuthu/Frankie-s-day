@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,9 @@
   background-color: #0080ff;
   color:#FBFCF8;
   padding: 1rem;
+  font-family: "PT Serif", serif;
+  font-weight: 200;
+  font-style: normal;
 }
 .nav-header {
   display: flex;
@@ -75,9 +79,6 @@
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
- display: flex;
- justify-content: center;
- align-items: center;
  animation: fadeIn 2s ease-in forwards;
   opacity: 0;
 
@@ -87,8 +88,37 @@
     opacity: 1;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400..800&display=swap');
 
+.home-page p{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #FBFCF8;
+ 
+  /* padding: 0 1rem; */
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700; /* gold glow */
+}
 
-
+  
+.home-page h2 {
+  padding-top: 40px;
+  padding-left: 80px;
+  color: #FBFCF8;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700; /* gold glow */
+}
+  
+  
 
 
