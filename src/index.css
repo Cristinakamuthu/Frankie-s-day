@@ -12,6 +12,7 @@
   font-family: "PT Serif", serif;
   font-weight: 200;
   font-style: normal;
+  
 }
 .nav-header {
   display: flex;
@@ -90,24 +91,26 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400..800&display=swap');
 
-.home-page p{
+.home-page p {
   position: absolute;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   color: #FBFCF8;
- 
-  /* padding: 0 1rem; */
+
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-style: italic;
   font-weight: 700;
   font-size: 20px;
-  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700; /* gold glow */
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+
+  opacity: 0;
+  animation: fadeUp 2s ease-out forwards;
+  animation-delay: 1s;
 }
 
-  
 .home-page h2 {
   padding-top: 40px;
   padding-left: 80px;
@@ -116,8 +119,35 @@
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
-  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700; /* gold glow */
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+
+  opacity: 0;
+  animation: slideInLeft 1.5s ease-out forwards;
+  animation-delay: 0.5s;
 }
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
   
   
 
