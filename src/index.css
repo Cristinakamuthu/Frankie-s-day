@@ -68,6 +68,26 @@
     display: flex;
   }
 }
+.home-page{
+ height:100vh;
+ width: 100%;
+ background-image: url('/src/assests/Frankie-performing.jpeg'); 
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ animation: fadeIn 2s ease-in forwards;
+  opacity: 0;
+
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 
 
 
