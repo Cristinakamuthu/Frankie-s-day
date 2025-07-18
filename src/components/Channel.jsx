@@ -32,7 +32,7 @@ const Channel = () => {
         </div>
 
         <div>
-          <h2>Here are some of her videos Enjoy!</h2>
+          <h2 className='h2-videos'>Here are some of her videos Enjoy!</h2>
 <Youtube/>
         </div>
         </div>
