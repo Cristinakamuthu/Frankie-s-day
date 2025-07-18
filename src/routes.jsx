@@ -1,4 +1,5 @@
 import App from "./App";
+import About from "./components/About";
 import Channel from "./components/Channel";
 import Errorpage from "./components/Errorpage";
 import Videos from "./components/Videos";
@@ -13,7 +14,7 @@ const routes = [
     },
     {
         path:"/about",
-        element:<About />,
+        element:<About/>,
         errorElement:<Errorpage/>
 
     },

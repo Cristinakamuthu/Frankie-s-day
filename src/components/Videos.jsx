@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Videos = () => {
   return (
-    <div>Videos</div>
+    <div>
+      
+    </div>
   )
 }
 
